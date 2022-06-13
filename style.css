@@ -1,1 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.3);
+}
+h2{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+#form{
+    padding: 30px 50px;
+}
+.form-control{
+    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control label{
+    color: cadetblue;
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border: 2px solid rgb(143, 156, 170);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px; 
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: rgb(40, 133, 255);
+}
+.form-control.success input{
+    border-color: #2ecc71;
+}
+.form-control.error input{
+    border-color: #f84e4e;
+}
