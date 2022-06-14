@@ -51,3 +51,8 @@ form.addEventListener('submit', function(event){
 
 })
 
+// document.querySelectorAll("h2")[1].addEventListener("click", myFunc);
+// function myFunc(){
+//     document.body.style.backgroundColor = "Green";
+// }
+

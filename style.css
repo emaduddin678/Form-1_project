@@ -8,10 +8,10 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
 }
 .container{
     background-color: azure;
