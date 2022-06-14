@@ -26,7 +26,7 @@ h2{
     padding: 30px 50px;
 }
 .form-control{
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     padding-bottom: 10px;
     position: relative;
 }
@@ -42,6 +42,7 @@ h2{
     width: 100%;
     padding: 10px 20px;
     font-size: 14px; 
+    margin-bottom: 8px;
 }
 .form-control input:focus{
     outline: 0;
@@ -52,4 +53,28 @@ h2{
 }
 .form-control.error input{
     border-color: #f84e4e;
+} 
+
+.form-control small{
+    color: #f84e4e;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    left: 0;
+}
+.form-control.error small{
+    visibility: visible;
+}
+
+#form button{
+    cursor: pointer;
+    background-color: rgb(60, 162, 221);
+    border: 2px solid rgb(60, 162, 221);
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
